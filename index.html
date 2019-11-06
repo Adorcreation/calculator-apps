@@ -1,0 +1,52 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Calcluter</title>
+</head>
+<body>
+
+<!--Developed by Md Nazmul Islam-->
+
+
+<form name="calcluter">
+
+ <input type="text" name="screen" />
+
+ <hr>
+<input type="button" value="&radic;" onclick="calcluter.screen.value = Math.sqrt(calcluter.screen.value)"/>
+<input type="button" value="CE" onclick="calcluter.screen.value = '' "/>
+<input type="button" value="C" onclick="calcluter.screen.value = '' "/>
+<input type="button" value="&larr;" onclick="calcluter.screen.value = calcluter.screen.value.slice(0-1) "/>
+<br>
+<input type="button" value="7" onclick="calcluter.screen.value = calcluter.screen.value + '7' "/>
+<input type="button" value="8" onclick="calcluter.screen.value = calcluter.screen.value + '8' "/>
+<input type="button" value="9" onclick="calcluter.screen.value = calcluter.screen.value + '9' "/>
+<input type="button" value="+" onclick="calcluter.screen.value = calcluter.screen.value + '+' "/>
+
+<br>
+<input type="button" value="4" onclick="calcluter.screen.value = calcluter.screen.value + '4' "/>
+<input type="button" value="5" onclick="calcluter.screen.value = calcluter.screen.value + '5' "/>
+<input type="button" value="6" onclick="calcluter.screen.value = calcluter.screen.value + '6' "/>
+<input type="button" value="-" onclick="calcluter.screen.value = calcluter.screen.value + '-' "/>
+
+<br>
+<input type="button" value="1" onclick="calcluter.screen.value = calcluter.screen.value + '1' "/>
+<input type="button" value="2" onclick="calcluter.screen.value = calcluter.screen.value + '2' "/>
+<input type="button" value="3" onclick="calcluter.screen.value = calcluter.screen.value + '3' "/>
+<input type="button" value="*" onclick="calcluter.screen.value = calcluter.screen.value + '*' "/>
+
+<br>
+<input type="button" value="0" onclick="calcluter.screen.value = calcluter.screen.value + '0' "/>
+<input type="button" value="." onclick="calcluter.screen.value = calcluter.screen.value + '.' "/>
+<input type="button" value="=" onclick="calcluter.screen.value =  eval(calcluter.screen.value)"/>
+<input type="button" value="/" onclick="calcluter.screen.value = calcluter.screen.value + '/' "/>
+
+
+</form>
+
+<script></script>
+
+</body>
+</html>
